@@ -1,4 +1,4 @@
-package com.example.studentManagement.models;
+package com.example.studentmanagement.models;
 
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
