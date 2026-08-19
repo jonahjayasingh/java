@@ -1,5 +1,6 @@
 package com.example.ecom.Model;
 
+import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Date;
 
@@ -22,7 +23,7 @@ public class Product {
     private int price;
     private String category;
     @JsonFormat(pattern = "yyyy-MM-dd")
-    private Date releaseDate;
+    private LocalDate releaseDate;
     private Boolean isAvialable;
     private int stockCount;
     private byte[] image;
@@ -57,10 +58,10 @@ public class Product {
     public void setCategory(String category) {
         this.category = category;
     }
-    public Date getReleaseDate() {
+    public LocalDate getReleaseDate() {
         return releaseDate;
     }
-    public void setReleaseDate(Date releaseDate) {
+    public void setReleaseDate(LocalDate releaseDate) {
         this.releaseDate = releaseDate;
     }
     public Boolean getIsAvialable() {
