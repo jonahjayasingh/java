@@ -169,13 +169,12 @@ export default function Home(){
                                             </span>
                                         </div>
                                     </div>
-
-                                    <button
-                                        type="button"
+                                   <Link
+                                        to={`/singleProduct/${product.id}`}
                                         className="btn btn-outline-primary w-100"
                                     >
                                         View Details
-                                    </button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
